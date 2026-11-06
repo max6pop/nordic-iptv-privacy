@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="sv"><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Nordic IPTV – Integritetspolicy</title><style>body{font:18px/1.65 system-ui,sans-serif;max-width:850px;margin:40px auto;padding:0 20px;background:#07121f;color:#edf3fa}pre{font:inherit;white-space:pre-wrap;overflow-wrap:anywhere}a{color:#79b8ff}</style><main><pre>NORDIC IPTV – INTEGRITETSPOLICY
+Uppdaterad 6 november 2026
+
+Ansvarig utgivare: Roine Persson
+Kontakt: roinepersson@gmail.com
+
+1. Om appen
+Nordic IPTV är en spelare för ett bibliotek och TV-tjänster som du själv ansluter och har rätt att använda. Inga abonnemang eller filmrättigheter medföljer. Appen innehåller inga annonser, inga egna analys-SDK:er och ingen egen kontoregistrering eller molnsynk.
+
+2. Vad som behandlas på din Apple TV
+Appen använder de serveradresser, användarnamn, lösenord och API-nycklar som du anger för att ansluta till dina tjänster. Uppgifter och krypteringsnycklar sparas i enhetens Nyckelring. Lokala profiler, inställningar, favoriter, tittarpositioner, sökhistorik, kanalval och kategorival används för appens funktioner. Bibliotek, metadata, betyg och EPG kan sparas i krypterade lokala filer. Bilder, nedladdade undertexter och vissa offentliga metadata lagras också lokalt som cache. Alla cachefiler är inte krypterade.
+
+3. Vilka tjänster tar emot uppgifter?
+Din IPTV-leverantör får din inloggning samt förfrågningar om katalog, EPG och strömmar du väljer. TMDB får titel, titel-ID och språk när metadata hämtas; bilder hämtas från dess bildservrar eller din leverantör. Wikidata kan få titel-ID:n för att komplettera distributionsuppgifter. OpenSubtitles får sökfråga/titel-ID, avsnittsuppgifter och språk; din API-nyckel och eventuella kontoinloggning används för autentisering och nedladdningskvot. Tjänsterna ser normalt din IP-adress och kan ha egna loggar och lagring enligt sina villkor.
+
+Om din utgåva stöder IMDb-filen laddas den offentliga betygsfilen ned från datasets.imdbws.com och matchas lokalt. Dina titel-ID:n och kontouppgifter skickas inte med filhämtningen. Om den äldre OMDb-källan används får OMDb titelns IMDb-ID och din OMDb-nyckel. App Store-konfigurationen hämtar inte IMDb-filen eller OMDb-betyg. IMDb- och OMDb-stöd i privata utvecklarutgåvor innebär inget tillstånd till kommersiell användning.
+
+Tjänsternas egna villkor och integritetspolicyer gäller för deras behandling. Externa mottagare kan finnas i andra länder. Utgivaren driver ingen egen server för att samla in ditt bibliotek eller din tittarhistorik från appen. Detta utesluter inte tjänsternas egen behandling vid de förfrågningar du gör.
+
+4. Syfte och lagringstid
+Uppgifterna används för anslutning, uppspelning, metadata, undertexter, sökning och sparade val som du begär. Konton och personliga val finns kvar tills de ändras eller tas bort. Bibliotekscachen kan användas innan en uppdatering hämtas och har normalt upp till ett dygns färskhet. Ett färskhetsdatum betyder inte att alla filer automatiskt raderas efter ett dygn. Metadata och undertexter kan finnas kvar längre tills de ersätts eller rensas. Apple TV kan rensa cacheutrymme när systemet behöver plats.
+
+5. Lokal diagnostik
+Appen kan spara en begränsad lokal spelarlogg med tidpunkter, spelarhändelser, sessions-ID, version samt minnes- och videomått för felsökning. Den är inte avsedd att innehålla filmtitlar, strömadresser, lösenord eller API-nycklar och skickas inte automatiskt till utgivaren. Appens lokala prestandamätningar används inte för annonser eller spårning mellan appar.
+
+6. Dina val och borttagning
+Du kan ändra tjänsteanslutningar och profiler i Inställningar, rensa tittarhistorik och senaste sökningar, ta bort favoriter och ta bort sparad extern textning. Att koppla loss en tjänst är inte samma sak som att radera ett konto hos leverantören. Kontakta respektive tjänst för dess serverlagrade uppgifter och konto. Cache hanteras även av Apple TV. Avinstallation ska inte användas som garanti för att alla Nyckelringsposter raderas.
+
+7. Säkerhet och anslutningar
+Metadata-API:erna använder HTTPS. Privata utvecklarutgåvor kan tillåta en HTTP-leverantör efter ditt uttryckliga val; då kan inloggning och trafik skickas okrypterat. Använd HTTPS när tjänsten erbjuder det. App Store-konfigurationen kräver HTTPS för appens inledande tjänste- och strömadresser och använder inget globalt ATS-undantag. Ingen nätanslutning kan garanteras riskfri.
+
+8. Frågor
+Kontakta Roine Persson på roinepersson@gmail.com med frågor om policyn, appens lokala datahantering eller hur du använder borttagningsfunktionerna. Skicka inte lösenord, API-nycklar eller fullständiga strömadresser i e-post.
+
+9. Policyn på webben
+Den offentliga policysidan publiceras med GitHub Pages. När sidan öppnas loggar och lagrar GitHub besökarens IP-adress för säkerhetsändamål, även utan inloggning. Sidan innehåller inga egna analysverktyg eller externa skript. Läs GitHubs integritetsinformation: https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement
+</pre></main></html>
